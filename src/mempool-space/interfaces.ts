@@ -23,7 +23,7 @@ export interface IBlock {
     // 
     id: string,
 
-    //
+    // The block's number
     height: number,
 
     //
