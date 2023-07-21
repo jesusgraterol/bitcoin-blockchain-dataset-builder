@@ -1,0 +1,35 @@
+{
+  "name": "bitcoin-blockchain-dataset-builder",
+  "version": "1.0.0",
+  "description": "This script extracts relevant data for each block from mempool.space's public API and structures it in a way that is easy to load into any data science/machine learning project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear && rm -r ./dist && npx tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgraterol/Bitcoin-Blockchain-Dataset-Builder.git"
+  },
+  "keywords": [
+    "Bitcoin",
+    "Blockchain",
+    "Dataset",
+    "Trading",
+    "Machine",
+    "Learning",
+    "Data",
+    "Science",
+    "Cryptocurrency"
+  ],
+  "author": "Jesus Graterol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusgraterol/Bitcoin-Blockchain-Dataset-Builder/issues"
+  },
+  "homepage": "https://github.com/jesusgraterol/Bitcoin-Blockchain-Dataset-Builder#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^5.1.6"
+  }
+}
