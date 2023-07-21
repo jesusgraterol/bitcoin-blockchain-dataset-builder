@@ -30,11 +30,11 @@ export interface IDatasetItem {
     // The current network mining difficulty (set based on the hashing power)
     difficulty: number,
 
-    // @TODO
-    weight: number,
-
     // The median of the fees paid by txs to be included (satoshis per byte rate)
-    median_fee: number,
+    median_fee_rate: number,
+
+    // The average of the fees paid by txs to be included (satoshis per byte rate)
+    avg_fee_rate: number,
 
     // The fee total collected by the block's miner (satoshis)
     total_fees: number,
@@ -42,4 +42,11 @@ export interface IDatasetItem {
     // The fee range paid by all transactions within the block (satoshis per byte rate)
     fee_range_min: number,
     fee_range_max: number,
+
+    // The total number of inputs and outputs in all the txs within the block
+    input_count: number,
+    output_count: number,
+
+    // The Bitcoin total found in all outputs (satoshis)
+    output_amount: number
 }
