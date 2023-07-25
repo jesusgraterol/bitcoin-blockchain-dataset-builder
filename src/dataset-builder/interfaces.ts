@@ -18,7 +18,7 @@ export interface IDatasetItem {
     // The block's number
     height: number,
 
-    // The unix timestamp in ms when the block was first mined
+    // The unix timestamp in ms when the block was mined (milliseconds)
     timestamp: number,
 
     // The size of the block in bytes

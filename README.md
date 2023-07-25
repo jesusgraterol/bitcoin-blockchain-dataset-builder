@@ -1,6 +1,10 @@
 # Bitcoin Blockchain Dataset Builder
 
-The dataset builder script extracts all the relevant block information from the Bitcoin Blockchain through Mempool.space's public API. The data is stored in a .csv file, facilitating its use in data science and machine learning projects.
+The dataset builder script extracts all the relevant block information from the Bitcoin Blockchain through Mempool.space's public API. The data is stored in a .csv file, facilitating its use in data science and machine learning projects. 
+
+The dataset file (updated quarterly) is hosted in Kaggle and can be downloaded from the following URL:
+
+[https://www.kaggle.com/datasets/jesusgraterol/bitcoin-blockchain-dataset](https://www.kaggle.com/datasets/jesusgraterol/bitcoin-blockchain-dataset)
 
 
 
@@ -53,7 +57,7 @@ Initialize the syncing process with:
 
 `npm start`
 
-**NOTE**: if the syncing execution were to fail and stop for any reason, it can be executed again without the risk of corrupting the dataset. Additionally, if your project requires a fresh dataset frequently, download the pruned file from <a href="https://www.kaggle.com/jesusgraterol/datasets" target="_blank">Kaggle</a> and place it in the output directory.
+**NOTE**: if the syncing execution were to fail and stop for any reason, it can be executed again without the risk of corrupting the dataset. Additionally, if your project requires a fresh dataset frequently, download the pruned file from [Kaggle](https://www.kaggle.com/datasets/jesusgraterol/bitcoin-blockchain-dataset) and place it in the output directory.
 
 
 
@@ -88,5 +92,5 @@ If you're going to use this dataset to train machine learning models, take into 
 
 Since the dataset file is deeply analyzed in Jupyter|Kaggle Notebooks, no unit tests were written. If you wish to see more details regarding this dataset, please visit:
 
-<a href="https://www.kaggle.com/jesusgraterol/code" target="_blank">https://www.kaggle.com/jesusgraterol/code</a>
+[https://www.kaggle.com/code/jesusgraterol/bitcoin-blockchain-historical-data](https://www.kaggle.com/code/jesusgraterol/bitcoin-blockchain-historical-data)
 

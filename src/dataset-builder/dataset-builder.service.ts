@@ -17,7 +17,7 @@ export class DatasetBuilderService implements IDatasetBuilderService {
     private readonly dataset_path: string = "./output/dataset.csv";
 
     // The delay that will be applied every time a request is sent
-    private readonly delay_seconds_per_request: number = 3;
+    private readonly delay_seconds_per_request: number = 2;
 
     // Mempool Space Service
     private _mempool_space: IMempoolSpaceService;
